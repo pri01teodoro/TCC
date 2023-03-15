@@ -17,6 +17,7 @@ export default function CardList(){
             {cards.map( c => (
                 <Card
                 key={c.id}
+                id={c.id}
                 titulo={c.titulo}
                 autor={c.autor}
                 orientador={c.orientador}
